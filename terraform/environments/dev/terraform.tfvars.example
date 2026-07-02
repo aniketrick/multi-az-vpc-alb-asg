@@ -1,0 +1,15 @@
+aws_region    = "eu-west-2"
+instance_type = "t2.micro"
+
+# Cost-safe defaults
+# NAT Gateway is billable, so keep this false unless you want a production-like private subnet pattern.
+enable_nat_gateway = false
+
+# Keep false for low-cost testing. Set true only if NAT Gateway is enabled or instances do not need internet bootstrapping.
+place_instances_in_private_subnets = false
+
+desired_capacity = 1
+min_size         = 1
+max_size         = 2
+
+enable_ssh = false
