@@ -516,4 +516,3 @@ For a real production environment, I would improve this project by adding:
 ## Final Result
 
 This project demonstrates practical AWS infrastructure design for Cloud Engineer, Platform Engineer and SRE roles. It shows that the environment can be provisioned from code, tested through an ALB endpoint, monitored with CloudWatch and safely destroyed after validation.
-## Interview Talking Points
